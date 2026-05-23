@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Materials | Online Study Portal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">
+                <i class="fas fa-graduation-cap"></i> Online Study Portal
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="materials.html" class="active">Study Materials</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2 class="section-title">Free Study Materials</h2>
+            <div class="grid">
+                <style>
+                    .material-item {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        padding: 1.5rem;
+                        background: var(--card-bg);
+                        border-radius: 12px;
+                        border: 1px solid var(--border-color);
+                        margin-bottom: 1rem;
+                        transition: var(--transition);
+                    }
+
+                    .material-item:hover {
+                        border-color: var(--primary-color);
+                        transform: scale(1.02);
+                    }
+
+                    .material-info {
+                        display: flex;
+                        align-items: center;
+                        gap: 1.5rem;
+                    }
+
+                    .material-icon {
+                        font-size: 2rem;
+                        color: #ef4444;
+                        /* PDF color */
+                    }
+
+                    .download-btn {
+                        color: var(--primary-color);
+                        text-decoration: none;
+                        font-weight: 600;
+                    }
+                </style>
+                <div style="grid-column: 1 / -1;">
+                    <div class="material-item">
+                        <div class="material-info">
+                            <i class="fas fa-file-pdf material-icon"></i>
+                            <div>
+                                <h3>Python Cheat Sheet</h3>
+                                <p>Essential syntax and functions for quick reference.</p>
+                            </div>
+                        </div>
+                        <a href="notes/python-cheat-sheet.pdf" class="download-btn"><i class="fas fa-download"></i> Download</a>
+                    </div>
+                    <div class="material-item">
+                        <div class="material-info">
+                            <i class="fas fa-file-pdf material-icon"></i>
+                            <div>
+                                <h3>Web Dev Roadmap 2026</h3>
+                                <p>Comprehensive path to becoming a full-stack developer.</p>
+                            </div>
+                        </div>
+                        <a href="notes/web-developer.pdf" class="download-btn"><i class="fas fa-download"></i> Download</a>
+                    </div>
+                    <div class="material-item">
+                        <div class="material-info">
+                            <i class="fas fa-file-archive material-icon" style="color: #f59e0b;"></i>
+                            <div>
+                                <h3>Simple Roadmap of Data Scientists</h3>
+                                <p>Cleaned datasets for your data science portfolio projects.</p>
+                            </div>
+                        </div>
+                        <a href="notes/Datascientist-syllabus.pdf" class="download-btn"><i class="fas fa-download"></i> Download</a>
+                    </div>
+                    <div class="material-item">
+                        <div class="material-info">
+                            <i class="fas fa-file-word material-icon" style="color: #3b82f6;"></i>
+                            <div>
+                                <h3>Interview Preparation Guide</h3>
+                                <p>Top 50 common tech interview questions and answers.</p>
+                            </div>
+                        </div>
+                        <a href="notes/interview-guide.pdf" class="download-btn"><i class="fas fa-download"></i> Download</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Online Study Portal</h4>
+                <p>Empowering learners globally with accessible, high-quality education resources.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul class="footer-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="materials.html">Study Materials</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Support</h4>
+                <ul class="footer-links">
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            &copy; 2026 Online Study Portal. All rights reserved.
+        </div>
+    </footer>
+</body>
+
+</html>
